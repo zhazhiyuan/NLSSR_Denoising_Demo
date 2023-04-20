@@ -63,7 +63,7 @@ ERGAS_Final                        =                 mean (ERGASvector)
     
   
     
-
+%{
 
  if Sigma==10
      
@@ -289,6 +289,6 @@ eeee= cc/dd;
    xlswrite(Final_denoisng_2,PSNR_all)
 % 
  end
-
+%}
 
 end
